@@ -19,7 +19,7 @@ Package.onUse(function (api) {
 });
 
 Package.onTest(function (api) {
-  api.use('minifier-js', 'server');
+  api.use('abernix:minifier-js', 'server');
   api.use('tinytest');
 
   api.addFiles([
