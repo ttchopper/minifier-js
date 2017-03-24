@@ -1,12 +1,12 @@
 Package.describe({
   name: 'abernix:minifier-js',
   summary: "JavaScript minifier",
-  version: "1.3.18"
+  version: "1.3.19"
 });
 
 Npm.depends({
   "source-map": "0.5.6",
-  "uglify-js": "git+https://github.com/mishoo/UglifyJS2#harmony-v2.7.5",
+  "uglify-js": "git+https://github.com/mishoo/UglifyJS2#harmony-v2.8.15",
 });
 
 Npm.strip({

@@ -5,11 +5,6 @@
       "resolved": "https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz",
       "from": "align-text@>=0.1.3 <0.2.0"
     },
-    "async": {
-      "version": "0.2.10",
-      "resolved": "https://registry.npmjs.org/async/-/async-0.2.10.tgz",
-      "from": "async@>=0.2.6 <0.3.0"
-    },
     "camelcase": {
       "version": "1.2.1",
       "resolved": "https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz",
@@ -31,8 +26,8 @@
       "from": "decamelize@>=1.0.0 <2.0.0"
     },
     "is-buffer": {
-      "version": "1.1.4",
-      "resolved": "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.4.tgz",
+      "version": "1.1.5",
+      "resolved": "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.5.tgz",
       "from": "is-buffer@>=1.0.2 <2.0.0"
     },
     "kind-of": {
@@ -63,12 +58,12 @@
     "source-map": {
       "version": "0.5.6",
       "resolved": "https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz",
-      "from": "source-map@0.5.6"
+      "from": "source-map@>=0.5.1 <0.6.0"
     },
     "uglify-js": {
-      "version": "2.7.5",
-      "resolved": "git+https://github.com/mishoo/UglifyJS2.git#3ee46e91e802fb8bf20656bce115375c5f624052",
-      "from": "uglify-js@git+https://github.com/mishoo/UglifyJS2#harmony-v2.7.5"
+      "version": "2.8.15",
+      "resolved": "git+https://github.com/mishoo/UglifyJS2.git#9e2290b29c86caf847e291cf120ab23bea40544c",
+      "from": "git+https://github.com/mishoo/UglifyJS2.git#harmony-v2.8.15"
     },
     "uglify-to-browserify": {
       "version": "1.0.2",
