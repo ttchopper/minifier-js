@@ -1,28 +1,16 @@
 Package.describe({
   name: 'abernix:minifier-js',
   summary: "JavaScript minifier",
-  version: "1.3.19"
+  version: "2.0.0"
 });
 
 Npm.depends({
   "source-map": "0.5.6",
-  "uglify-js": "git+https://github.com/mishoo/UglifyJS2#harmony-v2.8.15",
-});
-
-Npm.strip({
-  "uglify-js": ["test/"]
+  "uglify-js": "git+https://github.com/mishoo/UglifyJS2#harmony-v2.8.22",
 });
 
 Package.onUse(function (api) {
-  api.export(['UglifyJSMinify', 'UglifyJS']);
+  api.use('babel-compiler@6.18.1');
+  api.export(['meteorJsMinify']);
   api.addFiles(['minifier.js'], 'server');
-});
-
-Package.onTest(function (api) {
-  api.use('abernix:minifier-js', 'server');
-  api.use('tinytest');
-
-  api.addFiles([
-    'beautify-tests.js',
-  ], 'server');
 });
