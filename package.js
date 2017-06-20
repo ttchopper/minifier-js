@@ -1,7 +1,7 @@
 Package.describe({
   name: 'abernix:minifier-js',
   summary: "JavaScript minifier",
-  version: "2.0.0"
+  version: "2.1.0"
 });
 
 Npm.depends({
