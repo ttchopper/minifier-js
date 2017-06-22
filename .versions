@@ -1,4 +1,4 @@
-abernix:minifier-js@2.1.0-beta.0
+abernix:minifier-js@2.1.0
 babel-compiler@6.19.2
 ecmascript-runtime@0.4.1
 ecmascript-runtime-client@0.4.1
