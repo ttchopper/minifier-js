@@ -1,16 +1,16 @@
 Package.describe({
-  name: 'abernix:minifier-js',
+  name: 'revol:minifier-js',
   summary: "JavaScript minifier",
-  version: "2.1.0"
+  version: "1.0.0"
 });
 
 Npm.depends({
   "source-map": "0.5.6",
-  "uglify-es": "3.0.18",
+  "uglify-es": "3.1.1",
 });
 
 Package.onUse(function (api) {
-  api.use('babel-compiler@6.19.2');
+  api.use('babel-compiler@6.13.0');
   api.export(['meteorJsMinify']);
   api.addFiles(['minifier.js'], 'server');
 });

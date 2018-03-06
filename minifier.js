@@ -10,6 +10,9 @@ meteorJsMinify = function (source) {
         drop_debugger: false,
         unused: false,
         dead_code: false
+      },
+      mangle: {
+        safari10: true
       }
     });
 
